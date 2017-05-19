@@ -1,0 +1,36 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+		xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+		xmlns:h="http://xmlns.jcp.org/jsf/html"
+		xmlns:f="http://xmlns.jcp.org/jsf/core"
+		xmlns:p="http://primefaces.org/ui">
+
+<h:form>
+	<p:menubar>
+		<p:submenu label="Autor" icon="ui-icon-document">
+			<p:menuitem value="Cadastrar" url="cadastrarAutor.xhtml"/>
+			<p:separator/>
+			<p:menuitem value="Consultar" url="consultarAutor.xhtml"/>
+		</p:submenu>
+		<p:submenu label="Gênero" icon="ui-icon-document">
+			<p:menuitem value="Cadastrar" url="cadastrarGenero.xhtml"/>
+			<p:separator/>
+			<p:menuitem value="Consultar" url="consultarGenero.xhtml"/>
+		</p:submenu>
+		<p:submenu label="Editora" icon="ui-icon-document">
+			<p:menuitem value="Cadastrar" url="cadastrarEditora.xhtml"/>
+			<p:separator/>
+			<p:menuitem value="Consultar" url="consultarEditora.xhtml"/>
+		</p:submenu>
+		<p:submenu label="Livro" icon="ui-icon-document">
+			<p:menuitem value="Cadastrar" url="cadastrarLivro.xhtml"/>
+			<p:separator/>
+			<p:menuitem value="Consultar" url="consultarLivro.xhtml"/>
+		</p:submenu>
+	
+	<f:facet name="options">
+		<p:commandButton value="Logout" icon="ui-icon-extlink"/>
+	</f:facet>
+	</p:menubar>
+</h:form>
+
+</html>
